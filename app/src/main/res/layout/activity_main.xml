@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FindSenales">
+
+        <TextView
+            android:id="@+id/select_signal_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/signal_type"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/choose_item"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_margin="16dp"
+            android:layout_marginTop="80dp"
+            android:entries="@array/traffic_type"/>
+
+        <Button
+            android:id="@+id/btn_find_senales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:text="@string/find_senales"
+            android:textColorHighlight="@color/green"
+            android:textColorLink="@color/green"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/msg_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="16dp"
+            android:text="No ha seleccionado algun tipo de señal"
+            android:textColorHighlight="#9A2828"
+            android:textSize="20sp" />
+
+</LinearLayout>

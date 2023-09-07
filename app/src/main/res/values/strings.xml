@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LaboratorioSeñales</string>
+    <string name="find_senales">Encuentre la señal</string>
+    <string name="txt_type">No hay selección aun</string>
+    <string name="tittle_app">Señales de Transito</string>
+    <string name="signal_type">Seleccione el tipo de señal</string>
+    <string-array name="traffic_type">
+        <item>Señales Restrictivas</item>
+        <item>Señales Preventivas</item>
+        <item>Señales Informativas</item>
+        <item>Señales Obligatorias</item>
+    </string-array>
+</resources>
